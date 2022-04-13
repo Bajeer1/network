@@ -1,0 +1,25 @@
+Row(
+                  children: [
+                    Expanded(
+                      child: TextField(
+                        controller: firstNameControllor,
+                          onChanged: (value) {
+                            firstName = value;
+                          },
+                          decoration: KTextFieldDecoration.copyWith(
+                              hintText: 'First Name')),
+                    ),
+                    SizedBox(
+                      width: 20,
+                    ),
+                    Expanded(
+                      child: TextField(
+                        controller: lastNameControllor,
+                          onChanged: (value) {
+                            firstName = value;
+                          },
+                          decoration: KTextFieldDecoration.copyWith(
+                              hintText: 'Last Name')),
+                    ),
+                  ],
+                ),
